@@ -1,15 +1,13 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:device_policy_manager/device_policy_manager.dart';
-import 'package:screentimelimiter/kiosk.dart';
-import 'package:screentimelimiter/timer.dart';
+import 'package:flutter/services.dart';
+import 'package:screentimelimiter/main_activity.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   runApp(
     MaterialApp(
-      home: TimerUI(),
+      home: MainActivity(),
     ),
   );
 }

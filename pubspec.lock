@@ -94,14 +94,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
-  flutter_screen_lock:
-    dependency: "direct main"
-    description:
-      name: flutter_screen_lock
-      sha256: "1d86191e67f8c2f09349c2d2929b6d019db213f012d577ad3b85935d22b13207"
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -112,22 +104,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  focus_detector:
-    dependency: "direct main"
-    description:
-      name: focus_detector
-      sha256: "05e32d9dd378cd54f1a3f9ce813c05156f28eb83f8e68f5bf1a37e9cdb21af1c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.1"
-  kiosk_mode:
-    dependency: "direct main"
-    description:
-      name: kiosk_mode
-      sha256: "8d1cff8fee534de31b6eb3ad5022f327cfb151c57ae2329d16123db1fdb7cc1a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.5.0+1"
   lints:
     dependency: transitive
     description:
@@ -294,7 +270,7 @@ packages:
     source: hosted
     version: "2.1.1"
   stream_transform:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: stream_transform
       sha256: "14a00e794c7c11aa145a170587321aedce29769c08d7f58b1d141da75e3b1c6f"
@@ -325,14 +301,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.0"
-  timer_count_down:
-    dependency: "direct main"
-    description:
-      name: timer_count_down
-      sha256: d025d408c2654e497ca0bd4bde014bd7509d4c6397af4ed23a0f9b692bbcf337
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.2"
   vector_math:
     dependency: transitive
     description:
@@ -341,14 +309,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  visibility_detector:
-    dependency: transitive
-    description:
-      name: visibility_detector
-      sha256: ec932527913f32f65aa01d3a393504240b9e9021ecc77123f017755605e48832
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.2"
   web:
     dependency: transitive
     description:
